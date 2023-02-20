@@ -1,5 +1,12 @@
-x = int(input())
-if x > 0:
-    print('1')
+a = input ('a = ')
+b = input ('b = ')
+if a > b:
+    c = a - b
+    print ('c')
+elif a < b:
+    c = a + b
+    print ('c')
 else:
-    print('-1')
+    c = a
+    print ('c')
+input()

@@ -1,7 +1,3 @@
-dark=input("Вы хотите спать (да, нет, не знаю)")
-if dark == "Да":
-    print("Идите спать")
-elif dark=="не знаю":
-    print('подумайте еще')
-else:
-    print('Идите гулять')
+n = int(input())
+while n > 0: 
+    print(n % 10); n //= 10

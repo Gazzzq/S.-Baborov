@@ -1,12 +1,7 @@
-a = int(input('Введите трехзначное число'))
-if 99<a<1000:
-    e=a//100
-    e1=a%100
-    f=e1//10
-    f1=e1%10
-    print(e,f, f1)
-else:("Вы ввели некорректное число")
-if e==f1:
-    print("Палиндром")
-else:
-    print("Не является палиндромом")
+stsquare = int(input()) 
+radius = int(input()) 
+diametr = radius * 2 
+if stsquare >= diametr: 
+ print('Впишется') 
+else: 
+ print('Не впишется')

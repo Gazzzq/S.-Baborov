@@ -1,19 +1,9 @@
-a = int(input('Введите шестизначное число'))
-if 99999<a<1000000:
-    b=a//100000
-    b1=a%100000
-    c=b1//10000
-    c1=b1%10000
-    d=c1//1000
-    d1=c1%1000
-    e=d1//100
-    e1=d1%100
-    f=e1//10
-    f1=e1%10
-    print(b,c,d,e,f, f1)
-else: print('Вы ввели некорректное число')
-
-if b==2 or c==2 or d==2 or e==2 or f==2 or f1==2:
-    print('Входит')
-else:
-    print('Не входит')
+num1 = input() 
+num2 = input() 
+if num1 > num2: 
+ max = num1 
+ min = num2 
+else: 
+ max = num2 
+ min = num1 
+print('Большее число -',max, 'Меньшее число -',min)

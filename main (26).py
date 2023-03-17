@@ -1,12 +1,8 @@
-x = int(input())
-y = int(input())
-c = int(input())
-
-sin x = (c*y)/(x*y)
-cos x = (x*c)/(x*y)
-if sin x <= (3.14/4):
-    y = sin x 
-    print(y)
-else: 
-    y = cos x
-    print (y)
+× = int (input( "Введите ×"))  
+a = int (input( "Введите а") 
+b = int(input ( "Введите b")) 
+c= int (input("Введите с"))
+if x< (3,14/4)
+print (c/b)
+else:
+print(a/b)

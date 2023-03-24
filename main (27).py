@@ -1,7 +1,7 @@
-s1 = int(input('Введите в миллиметрах')) 
-t1 = int(input('Введите в дюймах')) 
-t1=s1*25.4
-if s1 > t1: 
- print('s1>t1 ') 
-else: 
- print('s1<t1 ')
+san = int(input('Введите число сантиметров:'))
+des = int(input('Введите число дециметров:'))
+milm= int(input('Введите число миллиметров:'))
+metres1 = san / 100
+metres2 = des / 10
+metres3 = milm / 1000
+print(metres1, metres2, metres3)

@@ -1,10 +1,5 @@
-def chisla():
-    a = int(input('Введите 5 значное число')) 
-    if 99999 > a < 100000: 
-        print('Число подходит') 
-        b = a // 10000 
-        c = a % 10
-        print('Первое число', b, 'Последнее число', c) 
-    else: 
-        print('Некоректное число')
-chisla()
+def dva():
+n=int(input("введите число"))
+print("2"in list(str(n)))
+n()
+

@@ -1,11 +1,4 @@
-def summa():
-    a = int(input('Введите первое 4 значное число')) 
-    q = int(input('Введите второе 4 значное число')) 
-    if 9999 > a < 10000: 
-        print('Число подходит') 
-        b = a + q 
-        c = a * q 
-        print('Сумма', b, 'Произведение', c) 
-    else: 
-        print('Некоректное число')
-summa()
+def chislo():
+chislo=int(input("целое число"))
+while chislo>0: print(chislo% 10); chislo//=10
+chislo()

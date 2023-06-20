@@ -1,6 +1,8 @@
-a=float(input("Введите первое вещественное число "))
-b=float(input("Введите второе вещественное число "))
-if a>b:
-    print(b)
-else:
-    print(a)
+def is_triangle(a, b, c):
+    
+    if(a <= 0 | b <= 0 | c <= 0):
+        return False
+    elif( a + b <= c or a + c <= b or b + c <= a): 
+        return False
+    else:
+        return True

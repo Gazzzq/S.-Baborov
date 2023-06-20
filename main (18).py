@@ -1,4 +1,2 @@
-N=int(input("Введите колличество жителей"))
-S=int(input("Введите площадь государства"))
-P=N/S
-print(P)
+def position(alphabet):
+    return "Position of alphabet: {}".format(ord(alphabet) - 96)

@@ -1,4 +1,8 @@
-m=int(input("Введите массу тела"))
-V=int(input("Введите объем тела"))
-p=m/V
-print(p)
+def fake_bin(x):
+    result = ""
+    for num in x:
+        if int(num) < 5:
+            result = result + "0"
+        else:
+            result = result + "1"
+    return result

@@ -1,9 +1,2 @@
-line=input("").split()
-cnt=0
-for i,s in enumerate(line):
-    if s.isdigit():
-        cnt+= len(s) 
-if cnt == 0:
-    print("числа не обнаружены")
-else:
-    print("",cnt)
+def binary_array_to_number(arr):
+    return int(''.join(str(a) for a in arr), 2)

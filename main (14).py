@@ -1,8 +1,9 @@
-number=int(input())
-if 99>number<100:
-    num1=number//10
-    num2=number%10
-    print("Число десятков",num1,"\nЧисло единиц",num2)
-else:
-    print("неверное число")
-    quit()
+def people_with_age_drink(age):
+    if age < 14:
+        return "drink toddy"
+    elif age >= 21:
+        return "drink whisky"
+    elif age < 18:
+        return "drink coke"
+    elif age >=18<21:
+        return "drink beer"

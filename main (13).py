@@ -1,7 +1,4 @@
-number=int(input())
-if 99>number<100:
-    num1=number//10
-    num2=number%10
-    print(num2,num1)
-else:
-    print("неверное число")
+from statistics import mean
+
+def better_than_average(class_points, your_points):
+    return your_points > mean(class_points)

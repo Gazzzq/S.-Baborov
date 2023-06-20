@@ -1,6 +1,5 @@
-a=int(input("Введите первое число"))
-b=int(input("Введите второе число"))
-c=a+b
-d=a*b
-e=a-b
-print(c, e, d)
+def seats_in_theater(tot_cols, tot_rows, col, row):
+    co=tot_cols-col+1
+    ro=tot_rows-row
+    result=co*ro
+    return result
